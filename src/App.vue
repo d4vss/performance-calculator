@@ -9,7 +9,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <nav>
         <RouterLink class="hover-underline-animation" to="/">Home</RouterLink>
         <RouterLink class="hover-underline-animation" to="/calculator">Calculator</RouterLink>
-        <RouterLink class="hover-underline-animation" to="/info">Info</RouterLink>
+        <a target=_blank class="hover-underline-animation" href="https://github.com/d4vss/performance-calculator/commits/main">Changelog</a>
       </nav>
     </div>  
   </header>
