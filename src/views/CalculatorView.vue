@@ -216,7 +216,6 @@ td:first-of-type {
     float: left;
 }
 table {
-    border: solid white 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -268,7 +267,6 @@ select option {
 button {
     color: var(--color-background);
     border: none;
-    cursor: pointer;
     padding: 7.5px;
     font-weight: 600;
     border-radius: 4px;
@@ -279,6 +277,7 @@ button {
 
 button:hover {
     box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
