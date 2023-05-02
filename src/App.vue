@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <div class="wrapper">
-      <RouterLink class="hover-underline-animation" to="/"><h3>Performance Calculator</h3></RouterLink>
+      <RouterLink class="hover-underline-animation home" to="/"><h3>Performance Calculator</h3></RouterLink>
       <nav>
         <RouterLink class="hover-underline-animation" to="/">Home</RouterLink>
         <RouterLink class="hover-underline-animation" to="/calculator">Calculator</RouterLink>
@@ -29,6 +29,12 @@ import { RouterLink, RouterView } from 'vue-router'
   margin-block: 2rem;
   padding-bottom: 1rem;
   border-bottom: solid 2px var(--color-text);
+}
+
+@media (max-width: 600px) {
+  .home {
+    display: none;
+  }
 }
 
 nav a.router-link-exact-active {
